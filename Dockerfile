@@ -7,7 +7,7 @@ RUN mkdir /app
 WORKDIR /app
 EXPOSE 3000
 
-WORKDIR /app
+RUN yarn config set registry https://nexus.altoalliance.com/repository/npm-group/
 
 COPY package* /app/
 

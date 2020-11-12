@@ -1,4 +1,4 @@
-PROJECT_NAME=react-clock
+PROJECT_NAME=web
 
 build:
 	docker build -t ${PROJECT_NAME} .
